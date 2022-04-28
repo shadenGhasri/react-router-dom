@@ -12,20 +12,20 @@ const Navbar = () => {
         </p>
         <ul>
           <li>
-            <a href="#">
+            <a  className = "icon" href="#">
               <i className="bi bi-house-heart"></i>
             </a>
           </li>
           <li>
-            <a href="#">
+            <a  className = "icon" href="#">
               <i className="bi bi-person"></i>
             </a>
           </li>
           <li>
-            <a className="basket" href="card.html">
+            <div className="basket icon">
               <i className="bi bi-bag-heart"></i>
               <span>{calculateSum()}</span>
-            </a>
+            </div>
           </li>
         </ul>
       </header>
